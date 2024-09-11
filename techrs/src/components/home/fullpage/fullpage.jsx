@@ -1,6 +1,7 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-dom";
-import Navbar from "../navbar/Navbar"
+import Navbar from "../navbar/Navbar";
+import Container from "../container/Container";
+import Footer from "../footer/Footer";
 import "./fullpage.css";
 
 function fullpage() {
@@ -8,11 +9,9 @@ function fullpage() {
 return(
 
     <>
-
-    <BrowserRouter>
     <Navbar />
-    </BrowserRouter>
-    
+    <Container />
+    <Footer />
     </>
 
 );
