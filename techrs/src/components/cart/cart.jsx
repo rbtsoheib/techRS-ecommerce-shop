@@ -1,7 +1,7 @@
 import React from "react";
 import "./cart.css"
 
-function cart() {
+function Cart() {
 
 return(
 
@@ -11,4 +11,4 @@ return(
 
 }
 
-export default cart;
+export default Cart;
